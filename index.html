@@ -1,15 +1,18 @@
 <!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Xiaosheng Huang</title>
-<link rel="icon" href="data:,">
-<style>
-  body{font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin:2rem; max-width:760px}
-  h1{font-size:2rem; margin:0 0 .5rem}
-  nav a{margin-right:1rem}
-  .card{border:1px solid #ddd; border-radius:14px; padding:1rem; margin:1rem 0}
-</style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research — Xiaosheng Huang</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="data:,">
+  <style>
+    body{font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin:2rem; max-width:760px}
+    h1{font-size:2rem; margin:0 0 .5rem}
+    nav a{margin-right:1rem}
+    .card{border:1px solid #ddd; border-radius:14px; padding:1rem; margin:1rem 0}
+  </style>
+</head>
 <body>
   <h1>Xiaosheng Huang</h1>
   <nav>  
@@ -18,9 +21,11 @@
     <a href="#publications">Publications</a>
     <a href="mailto:you@school.edu">Contact</a>
   </nav>
+
   <div class="card" id="research"><h2>Research</h2><p>Short intro...</p></div>
   <div class="card" id="teaching"><h2>Teaching</h2><p>Courses, office hours…</p></div>
   <div class="card" id="publications"><h2>Publications</h2><ul><li>Paper title — venue (year)</li></ul></div>
+
   <footer><small>© <span id="y"></span> Xiaosheng Huang</small></footer>
   <script>document.getElementById("y").textContent=new Date().getFullYear()</script>
 </body>
