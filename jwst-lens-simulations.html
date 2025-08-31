@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>JWST Lens Simulations — Smallest Einstein Rings</title>
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    window.MathJax = {
+        tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']]
+        }
+    };
+  </script>
+  <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Research ▾</button>
+      <div class="dropdown-content">
+        <a href="./lens-search.html">Lens Search</a>
+        <a href="./lens-modeling.html">Lens Modeling</a>
+        <a href="./halo-mass.html">Dark Matter Halo Mass Function</a>
+        <a href="./cosmology.html">Cosmology</a>
+        <a href="./jwst-lens-simulations.html">JWST Lens Simulations</a>
+      </div>
+    </div>
+    <a href="./teaching.html">Teaching</a>
+    <a href="./publications.html">Publications</a>
+    <a href="./publicity.html">Publicity &amp; Media</a>
+    <a href="./team.html">Our Team</a>
+    <a href="./hubble-programs.html">Hubble Programs</a>
+    <a href="./CV_XiaoshengHuang.pdf" target="_blank">CV</a>
+  </nav>
+
+  <h1>JWST Lens Simulations: Smallest Einstein Rings</h1>
+  <p class="muted">
+    Based on: <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250701943S/abstract" 
+    target="_blank" rel="noopener">E. Silver, R. Wang, X. Huang et&nbsp;al. (2025)</a>
+  </p>
+
+
+  <p style="text-align: justify;">
+    We study how small an Einstein radius (\(\theta_E \)) can be detected with JWST, using realistic simulated background 
+    source galaxies. We find that we can detect systems with $\theta_E$ down to the diffraction limit of JWST, or
+    ~0.03&Prime;.
+
+    <h2>Key Results</h2>
+    <ul>
+    <li>
+        We simulated strong lens systems with both conventional-sized $\theta_E$ ($\gtrsim 0.5''$) and very  
+        small $\theta_E$ systems ("dimple lenses") down to 0.03&Prime;, the diffraction limit of JWST NIRCam.
+    </li>
+    <li>
+        Realistic sources — for the first time — drawn from the 
+        <a href="https://archive.stsci.edu/prepds/vela/" target="_blank" rel="noopener">VELA simulations</a>.
+    </li>
+    <li>
+        We usd a custom ResNet to find both conventional strong lenses and these small "dimple lenses"
+    </li>
+    <li>
+        We applied a U-Net to pinpoint the location of the small $\theta_E$ systems.
+    </li>
+    <li>
+        For both the ResNet and U-Net, we set high thresholds set to control false positives.
+    </li>
+    <li>
+        We determined that we can indeed detect small $\theta_E$ systems with JWST down to ~0.03&Prime;.
+    </li>
+<li>Our codes can be found at:
+  <ul style="list-style-type: circle;">
+    <li>
+      <a href="https://ascl.net/placeholder-jls" target="_blank" rel="noopener">
+        JWST Lens Simulations (JLS)
+      </a> — code for simulating compact Einstein rings and arcs.
+    </li>
+    <li>
+      <a href="https://ascl.net/placeholder-run" target="_blank" rel="noopener">
+        ResNet + U-Net Pipeline (RUN)
+      </a> — classification and detection pipeline for small-θ<sub>E</sub> lenses.
+    </li>
+  </ul>
+</li>
+
+
+    </ul>
+
+
+    NEED TO ADD the figure from k-fold;
+
+    AND HST Programs
+
+    Future figure: Completeness curves versus θ_E and source brightness
+    
+  </p>
+
+
+
+  <h2>Implications</h2>
+  <ul>
+    <li>Guides JWST targeting for compact/dwarf-galaxy lenses.</li>
+    <li>Informs time allocation and follow-up strategies for systems identified in wide-area searches.</li>
+    <li>Provides baselines for future Roman synergy and small-θ<sub>E</sub> population studies.</li>
+  </ul>
+
+  <footer><small>© <span id="y"></span> Xiaosheng Huang</small></footer>
+  <script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
