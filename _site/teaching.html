@@ -3,53 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Teaching — Xiaosheng Huang</title>
-  <link rel="stylesheet" href="./style.css">
-  <style>
-    body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; margin:2rem; max-width:900px}
-    nav{display:flex; align-items:center; gap:1rem; flex-wrap:wrap}
-    nav a, .dropbtn{ text-decoration:none; color:#0056b3; font-weight:500; background:none; border:none; cursor:pointer; font-size:1rem }
-    .dropdown{ position:relative; display:inline-block }
-    .dropdown-content{ display:none; position:absolute; background:#fff; min-width:240px; box-shadow:0 8px 16px rgba(0,0,0,.15); z-index:1 }
-    .dropdown-content a{ display:block; padding:.5rem 1rem; color:#333; text-decoration:none }
-    .dropdown-content a:hover{ background:#f1f1f1 }
-    .dropdown:hover .dropdown-content{ display:block }
-
-    h1{margin:0 0 .75rem}
-    h2{margin:2rem 0 .5rem}
-    h3{margin:1rem 0 .25rem}
-    .course-meta{color:#555; font-size:.95rem; margin:.25rem 0 .75rem}
-    ul.videos{list-style-type: disc; padding-left:1.25rem; margin:.25rem 0 1rem}
-    ul.videos li{margin:.25rem 0}
-    ul.videos a{color:#0056b3; text-decoration:none}
-    ul.videos a:hover{text-decoration:underline}
-  </style>
+  <title>Research</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="data:,">
 </head>
 <body>
+  <!-- Optional: your header with photo/name -->
+  <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
+    <img src="/huang-xiaosheng.jpg" alt="Xiaosheng Huang" style="width:80px;height:auto;border-radius:8px;">
+    <h1 style="margin:0;">Xiaosheng Huang</h1>
+  </div>
 
-  <!-- Shared nav -->
   <nav>
-    <a href="/">Home</a>
+  <a href="/">Home</a>
 
-    <div class="dropdown">
-      <button class="dropbtn">Research ▾</button>
-      <div class="dropdown-content">
-        <a href="./lens-search.html">Lens Search</a>
-        <a href="./lens-modeling.html">Lens Modeling</a>
-        <a href="./halo-mass.html">Dark Matter Halo Mass Function</a>
-        <a href="./cosmology.html">Cosmology</a>
-      </div>
-    </div>
+<div class="dropdown">
+  <!-- Make Research itself a clickable link -->
+  <a class="dropbtn" href="/research.html">Research ▾</a>
 
-    <a href="./teaching.html">Teaching</a>
-    <a href="./publications.html">Publications</a>
-    <a href="./publicity.html">Publicity &amp; Media</a>
-    <a href="./team.html">Our Team</a>
-    <a href="./hubble-programs.html">Hubble Programs</a>
-    <a href="./CV_XiaoshengHuang.pdf" target="_blank">CV</a>
-  </nav>
+  <div class="dropdown-content">
+    <a href="/research.html">Overview</a>
+    <a href="/lens-search.html">Lens Search</a>
+    <a href="/lens-modeling.html">Lens Modeling</a>
+    <a href="/jwst-lens-simulations.html">JWST Strong Lens Forecast and Simulations</a>
+    <a href="/cosmology.html">Cosmology</a>
+  </div>
+</div>
 
-  <h1>Teaching</h1>
+  <a href="/teaching.html">Teaching</a>
+  <a href="/publications.html">Publications</a>
+  <a href="/publicity.html">Press &amp; Awards</a>
+  <a href="/team.html">Our Team</a>
+  <a href="/hubble-programs.html">Hubble Programs</a>
+  <a href="/CV_XiaoshengHuang.pdf" target="_blank">CV</a>
+</nav>
+
+
+  <main>
+      <h1>Teaching</h1>
   <p>
     In the last few years, my teaching mainls focuses on AI-related courses and introduction to astronomy courses.
   </p>
@@ -176,8 +167,13 @@
   <h3>
     PHYS&nbsp;343 — Astropyhysics
   </h3>
-  <p class="course-meta"> Under this oourse number/title, I taught an introduction to cosmology course.
+  <p class="course-meta"> Under this oourse number/title, I taught an introduction to cosmology course. </p>
+
  
 
+
+
+
+  </main>
 </body>
 </html>
