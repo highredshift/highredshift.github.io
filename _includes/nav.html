@@ -1,15 +1,18 @@
 <nav>
   <a href="/">Home</a>
 
-  <div class="dropdown">
-    <button class="dropbtn">Research ▾</button>
-    <div class="dropdown-content">
-      <a href="/lens-search.html">Lens Search</a>
-      <a href="/lens-modeling.html">Lens Modeling</a>
-      <a href="/jwst-lens-simulations.html">JWST Strong Lens Forecast and Simluations</a>
-      <a href="/cosmology.html">Cosmology</a>
-    </div>
+<div class="dropdown">
+  <!-- Make Research itself a clickable link -->
+  <a class="dropbtn" href="{{ '/research.html' | relative_url }}">Research ▾</a>
+
+  <div class="dropdown-content">
+    <a href="{{ '/research.html' | relative_url }}">Overview</a>
+    <a href="{{ '/lens-search.html' | relative_url }}">Lens Search</a>
+    <a href="{{ '/lens-modeling.html' | relative_url }}">Lens Modeling</a>
+    <a href="{{ '/jwst-lens-simulations.html' | relative_url }}">JWST Strong Lens Forecast and Simulations</a>
+    <a href="{{ '/cosmology.html' | relative_url }}">Cosmology</a>
   </div>
+</div>
 
   <a href="/teaching.html">Teaching</a>
   <a href="/publications.html">Publications</a>
