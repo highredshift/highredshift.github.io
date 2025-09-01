@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Teaching — Xiaosheng Huang</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; margin:2rem; max-width:900px}
+    nav{display:flex; align-items:center; gap:1rem; flex-wrap:wrap}
+    nav a, .dropbtn{ text-decoration:none; color:#0056b3; font-weight:500; background:none; border:none; cursor:pointer; font-size:1rem }
+    .dropdown{ position:relative; display:inline-block }
+    .dropdown-content{ display:none; position:absolute; background:#fff; min-width:240px; box-shadow:0 8px 16px rgba(0,0,0,.15); z-index:1 }
+    .dropdown-content a{ display:block; padding:.5rem 1rem; color:#333; text-decoration:none }
+    .dropdown-content a:hover{ background:#f1f1f1 }
+    .dropdown:hover .dropdown-content{ display:block }
+
+    h1{margin:0 0 .75rem}
+    h2{margin:2rem 0 .5rem}
+    h3{margin:1rem 0 .25rem}
+    .course-meta{color:#555; font-size:.95rem; margin:.25rem 0 .75rem}
+    ul.videos{list-style-type: disc; padding-left:1.25rem; margin:.25rem 0 1rem}
+    ul.videos li{margin:.25rem 0}
+    ul.videos a{color:#0056b3; text-decoration:none}
+    ul.videos a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+
+  <!-- Shared nav -->
+  <nav>
+    <a href="/">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Research ▾</button>
+      <div class="dropdown-content">
+        <a href="./lens-search.html">Lens Search</a>
+        <a href="./lens-modeling.html">Lens Modeling</a>
+        <a href="./halo-mass.html">Dark Matter Halo Mass Function</a>
+        <a href="./cosmology.html">Cosmology</a>
+      </div>
+    </div>
+
+    <a href="./teaching.html">Teaching</a>
+    <a href="./publications.html">Publications</a>
+    <a href="./publicity.html">Publicity &amp; Media</a>
+    <a href="./team.html">Our Team</a>
+    <a href="./hubble-programs.html">Hubble Programs</a>
+    <a href="./CV_XiaoshengHuang.pdf" target="_blank">CV</a>
+  </nav>
+
+  <h1>Teaching</h1>
+  <p>
+    In the last few years, my teaching mainls focuses on AI-related courses and introduction to astronomy courses.
+  </p>
+
+
+
+  <!-- ===================== AI Series ===================== -->
+  <h2>AI Series</h2>
+  Students who take two of the following three courses can earn the Applied AI Minor.
+
+  <!-- PHYS 301 -->
+  <h3>
+    PHYS&nbsp;301 — <a href="https://catalog.usfca.edu/preview_course_nopop.php?catoid=38&coid=557399" target="_blank" rel="noopener">Intro Scientific Computation</a>
+  </h3>
+  <p class="course-meta">Foundations of scientific computing with Python: NumPy/Scipy/Matplotlib, numerical methods, DFT, SVM, PCA, Monte Carlo, data handling, visualization, cross-validation, and an intro to ML workflows.</p>
+  <ul class="videos">
+    <li>
+      <a href="https://www.youtube.com/watch?v=_PwhiWxHK8o&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&index=17" 
+      target="_blank" rel="noopener">Support Vector Machine</a>
+    </li>
+  </ul>
+
+  <!-- PHYS 302 -->
+  <h3>
+    PHYS&nbsp;302 — <a href="https://catalog.usfca.edu/preview_course_nopop.php?catoid=39&coid=573865" target="_blank" rel="noopener">Sci. Comp. &amp; Machine Learning</a>
+  </h3>
+  <p class="course-meta">Scientific Computation and ML: neural network, CNN, differential equations, symbolic computation, and model optimization.</p>
+  <ul class="videos">
+    <li>
+     <a href="https://youtu.be/SAFmrTnEHLg" target="_blank" rel="noopener">Lightening Fast Pandas</a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/watch?v=uXt8qF2Zzfo&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&index=12" 
+      target="_blank" rel="noopener">Neural Network Basics</a>
+    </li>
+  </ul>
+
+  <!-- PHYS 303 -->
+  <h3>
+    PHYS&nbsp;303 — <a href="https://catalog.usfca.edu/preview_course_nopop.php?catoid=39&coid=575720" target="_blank" rel="noopener">Bayesian/Deep Learning in Sci.</a>
+  </h3>
+  <p class="course-meta">Bayesian inference (priors, posteriors, MCMC/HMC), uncertainty quantification, reinforcement learning, the Transformer architecture.</p>
+  <ul class="videos">
+    <li>
+      <a href="#" target="https://www.youtube.com/watch?v=HZGCoVF3YvM" rel="noopener">Bayes Theorem</a>
+    </li>
+    <li>
+      <a href="#" target="https://www.youtube.com/watch?v=eMlx5fFNoYc&t=1048s" rel="noopener">Attention in Transformers</a>
+    </li>
+    <li>
+      <a href="#" target="https://www.youtube.com/watch?v=kCc8FmEb1nY" rel="noopener">Build Your Own GPT</a>
+    </li>
+
+
+
+  </ul>
+    <!-- ===================== Astronomy ===================== -->
+  <h2>Astronomy</h2>
+
+  <!-- Cosmology (PHYS 120) -->
+  <h3>
+    Cosmology (PHYS&nbsp;120) —
+    <a href="https://catalog.usfca.edu/preview_course_nopop.php?catoid=38&coid=557379" target="_blank" rel="noopener">Astronomy: Earth/Cosmos</a>
+  </h3>
+  <p class="course-meta">A broad introduction from the Earth to the most distant galaxies and cosmology, including stars, galaxies, supervovae, black holes, gravitational lensing, dark matter and dark energy.</p>
+  <ul class="videos">
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=WRHIGuoH6ic" 
+      target="_blank" rel="noopener">Hubble Ultradeep Field</a>
+    </li>
+    <li>
+       <a href="https://www.youtube.com/watch?v=yf3Jd51pnuk&ab_channel=ChandraX-rayObservatory" 
+       target="_blank" rel="noopener">The Crab Nebula and Supernova 1054</a>
+    </li>
+    <li>
+       <a href="https://www.youtube.com/watch?v=N79TowJOHHE" 
+       target="_blank" rel="noopener">The Known Universe</a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/watch?v=ajZojAwfEbs&pp=ygUgZ3Jhdml0YXRpb25hbCB3YXZlIHN0ZXZlIGNvbGJlcnQ%3D" 
+      target="_blank" rel="noopener">Detection of Gravitatoinal Waves</a>
+    </li>
+
+    <li>
+       <a href="https://www.youtube.com/watch?v=zUyH3XhpLTo" target="_blank" rel="noopener">Understanding the Image of a Black Hole</a>
+    </li>
+
+  </ul>
+
+  <!-- Planetary Science (PHYS 121) -->
+  <h3>
+    Planetary Science (PHYS&nbsp;121) —
+    <a href="https://catalog.usfca.edu/preview_course_nopop.php?catoid=38&coid=557381" target="_blank" rel="noopener">Planetary Astronomy</a>
+  </h3>
+  <p class="course-meta">Solar System and exoplanet systems: formation, dynamics, atmospheres, and current discoveries.</p>
+  <ul class="videos">
+    <li>
+      <a href="https://www.youtube.com/watch?v=qnApR8fdKRo" 
+      target="_blank" rel="noopener">Saturn's Rings</a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/watch?v=c0FCE4H0Dro" 
+      target="_blank" rel="noopener">The Formation of the Moon</a>
+    </li>
+    <li>
+      <a href="https://archive.nytimes.com/www.nytimes.com/interactive/science/space/keplers-tally-of-planets.html?_r=0"
+      target="_blank" rel="noopener">Exoplanets Discoveredy the Kepler Satellite</a>
+    </li>
+  </ul>
+
+  </ul>
+    <!-- ===================== Other courses ===================== -->
+  <h2>In past years, I also taught the following courses </h2>
+    <!-- PHYS 371 -->
+  <h3>
+    PHYS&nbsp;371 — <a href="https://catalog.usfca.edu/preview_course_nopop.php?catoid=38&coid=557411" 
+    target="_blank" rel="noopener">Math Methods for Sci and Eng</a>
+  </h3>
+  <p class="course-meta">Mathethmatical Physics at the level of Boas.</p>
+
+
+    <!-- PHYS 343 -->
+  <h3>
+    PHYS&nbsp;343 — Astropyhysics
+  </h3>
+  <p class="course-meta"> Under this oourse number/title, I taught an introduction to cosmology course.
+ 
+
+</body>
+</html>

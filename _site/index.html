@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <!-- Optional: your header with photo/name -->
+  <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
+    <img src="/huang-xiaosheng.jpg" alt="Xiaosheng Huang" style="width:80px;height:auto;border-radius:8px;">
+    <h1 style="margin:0;">Xiaosheng Huang</h1>
+  </div>
+
+  <nav>
+  <a href="/">Home</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Research ▾</button>
+    <div class="dropdown-content">
+      <a href="/lens-search.html">Lens Search</a>
+      <a href="/lens-modeling.html">Lens Modeling</a>
+      <a href="/halo-mass.html">Dark Matter Halo Mass Function</a>
+      <a href="/cosmology.html">Cosmology</a>
+    </div>
+  </div>
+
+  <a href="/teaching.html">Teaching</a>
+  <a href="/publications.html">Publications</a>
+  <a href="/publicity.html">Press &amp; Awards</a>
+  <a href="/team.html">Our Team</a>
+  <a href="/hubble-programs.html">Hubble Programs</a>
+  <a href="/CV_XiaoshengHuang.pdf" target="_blank">CV</a>
+</nav>
+
+
+  <main>
+    <p style="text-align: justify;">
+  I am professor of Physics at the University of San Francisco 
+  and a Faculty Affiliate at the Lawrence Berkeley National Laboratory.
+  My research focuses on observational and computational cosmology, 
+  particularly using strong gravitational lensing to study dark matter and dark energy. 
+  My team applies ML/AI and "classical" techniques to identify strong lensing systems in the 
+  <a href="https://www.legacysurvey.org/" target="_blank">DESI imaging survey </a> 
+  and the <a href="https://www.desi.lbl.gov/" target="_blank">DESI</a> spectroscopic dataset. 
+  I also lead several Hubble Space Telescope programs to discover and 
+  model strong lenses.
+</p>
+
+  <div class="card">
+    <h2>Contact / Links</h2>
+    <ul>
+      <li><a href="https://www.usfca.edu/faculty/xiaosheng-huang" target="_blank">USF Faculty Profile</a></li>
+      <li><a href="https://sites.google.com/usfca.edu/neuralens" target="_blank">Project Website (NeuraLens)</a></li>
+      <li>Email: xhuang22@usfca.edu </li>
+    </ul>
+  </div>
+  <footer><small>© <span id="y"></span> Xiaosheng Huang</small></footer>
+  <script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,20 @@
+current directory: /Users/xiaoshenghuang/highredshift.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/xiaoshenghuang/highredshift.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250901-62745-uducjp sitelibdir\=./.gem.20250901-62745-uducjp clean
+
+current directory: /Users/xiaoshenghuang/highredshift.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250901-62745-uducjp sitelibdir\=./.gem.20250901-62745-uducjp
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: directory not found for option '-L/opt/homebrew/Cellar/openssl@3/3.5.1/lib'
+ld: warning: directory not found for option '-L/opt/homebrew/Cellar/openssl@3/3.5.1/lib'
+
+current directory: /Users/xiaoshenghuang/highredshift.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250901-62745-uducjp sitelibdir\=./.gem.20250901-62745-uducjp install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250901-62745-uducjp/racc
+
+current directory: /Users/xiaoshenghuang/highredshift.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250901-62745-uducjp sitelibdir\=./.gem.20250901-62745-uducjp clean
