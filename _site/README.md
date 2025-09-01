@@ -2,9 +2,9 @@
 # My Personal Website
 This repo hosts my academic website, published at [https://highredshift.github.io](https://highredshift.github.io).
 
-Locally, Jekyll is not working properly. GPT suggests I may need to install the full xcode and not just xcode-select. For now I'm using docker. The downside is locally, I cannot see continuously updated rendering while I make changes in html.
+Locally, Jekyll is not working properly. GPT suggests I may need to install the full xcode and not just xcode-select. For now I'm using docker. With docker, locally, as long as the following command is in effect, I can still see continuously updated rendering while I make changes in html. If I want to quit the dockder, hit ctrl-c.
 
-Even for docker, the server has to be launched this way:
+For docker, the server *has to be* launched this way:
 
 bash
 
